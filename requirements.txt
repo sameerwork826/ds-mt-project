@@ -10,3 +10,7 @@ sacREbleu==2.3.1
 hf-xet
 dotenv
 sacrebleu
+
+peft   
+# If you want to use fp16/mixed precision and have a modern GPU, also:
+bitsandbytes   

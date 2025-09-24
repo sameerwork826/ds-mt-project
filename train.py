@@ -106,6 +106,15 @@ def main():
     print("Training finished. Saving final model...")
     trainer.save_model(OUTPUT_DIR)
     tokenizer.save_pretrained(OUTPUT_DIR)
+    
+    print("Evaluating on validation set...")
+    results = trainer.evaluate(tokenized["validation"])
+    print(results)
+
+    print("Evaluating on test set...")
+    results = trainer.predict(tokenized["test"])
+    print(results.metrics)
+
     print("Done.")
 
 if __name__ == "__main__":
