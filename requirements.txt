@@ -1,4 +1,4 @@
-transformers>=4.30.0
+transformers
 datasets
 evaluate
 torch>=1.12
@@ -9,3 +9,4 @@ streamlit
 sacREbleu==2.3.1
 hf-xet
 dotenv
+sacrebleu
