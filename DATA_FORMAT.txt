@@ -1,0 +1,3 @@
+Put parallel data in data/ as JSONL files (one JSON object per line):
+{"src": "How are you?", "tgt": "तुम कैसे हो?"}
+{"src": "I love pizza.", "tgt": "मुझे पिज़्ज़ा पसंद है।"}

@@ -1,0 +1,11 @@
+transformers>=4.30.0
+datasets
+evaluate
+torch>=1.12
+sentencepiece
+sacremoses
+accelerate
+streamlit
+sacREbleu==2.3.1
+hf-xet
+dotenv
