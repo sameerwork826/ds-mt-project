@@ -1,5 +1,24 @@
 # English → Hindi Machine Translation (Transformer) — Demo Project
 
+## Demo
+
+Check out the live demo of our machine translation app:  
+[Machine Translation Demo](https://machine-translation-sameer.streamlit.app/)
+
+Or embed it more prominently:
+
+> 🚀 **Try it out live**:  
+> <https://machine-translation-sameer.streamlit.app/>
+
+---
+
+You can also use a badge-like link to make it stand out:
+
+```md
+[![Open Demo](https://img.shields.io/badge/Open-Demo-blue?style=flat&logo=streamlit)](https://machine-translation-sameer.streamlit.app/)
+
+
+
 This repository contains a full minimal project to fine-tune a pretrained seq2seq transformer for **English → Hindi** translation, run inference, and demo via a Streamlit app. It is designed for learning, interviews, and quick demos.
 
 ## What is included
